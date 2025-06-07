@@ -1,0 +1,8 @@
+% this is a comment %
+definetype record #definitionone as #definitiontwo
+record #definitionone
+type int : z
+type #pqr :a; %non-recursive nested using definetype
+type record #abc: b; %non-recursive nested without using definetype
+type #definitiontwo : c; %recursive nested using definetype
+endrecord
